@@ -10,8 +10,8 @@ from extract_feature import ExtractFeature
 # -------------------------------
 # Load ML Model
 # -------------------------------
-model = joblib.load("models/xgb_emotion_model.pkl")
-label_encoder = joblib.load("models/label_encoder.pkl")
+model = joblib.load("backend/models/xgb_emotion_model.pkl")
+label_encoder = joblib.load("backend/models/label_encoder.pkl")
 
 st.title("🎤 Speech Emotion Recognition (SER)")
 st.write("Upload a WebM audio file to predict the emotion.")
