@@ -240,7 +240,7 @@ export default function InterviewClassroom() {
       answerText: fullAnswer
     }));
 
-    const res = await fetch("http://https://unfaintly-thiolacetic-melisa.ngrok-free.dev/predict", {
+    const res = await fetch("https://unfaintly-thiolacetic-melisa.ngrok-free.dev/predict", {
       method: "POST",
       body: fd,
     });
